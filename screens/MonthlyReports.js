@@ -116,7 +116,6 @@ const MonthlyReportScreen = () => {
         Monthly Report
       </Text>
 
-      {/* Picker for selecting month */}
       <View style={styles.pickerContainer}>
         <Picker
           selectedValue={selectedMonth}
@@ -141,7 +140,6 @@ const MonthlyReportScreen = () => {
           ))}
         </Picker>
 
-        {/* Picker for selecting year */}
         <Picker
           selectedValue={selectedYear}
           onValueChange={handleYearChange}
